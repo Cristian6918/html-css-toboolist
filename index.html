@@ -27,8 +27,8 @@
     <main class="principale">
         <!-- inizio barra nav -->
         <div class="navig">
-            <button type="button">Add task</button>
-            <button type="button">add section</button>
+            <button type="button" class="bottone" id="blu">Add task</button>
+            <button type="button" class="bottone">Add section</button>
             
 
 
@@ -40,9 +40,47 @@
         
 
             <!-- inizio contenuto -->
-            <div>
+            <ul >
+                <li class="lista"><span>&blacktriangledown;</span> New Task
+                    <ul>
+                        <li class="lista-interna"><span class="done">&checkmark;</span> Quarterly Newsletter <a href="" class="label">editorial</a>
+                        </li>
+                    </ul>
+                </li>
 
-            </div>
+                <li class="lista"><span>&blacktriangledown;</span> Today
+                    <ul>
+                        <li class="lista-interna"><span class="done">&checkmark;</span> Recruiting blog post <a href="" class="label">editorial</a>
+                        </li>
+
+                        <li class="lista-interna"><span class="done">&checkmark;</span> Mobile app launch <a href="" class="label violet">Q1 Goals</a>
+                        </li>
+
+                        <li class="lista-interna"><span class="undone">&cross;</span> Interview John H. <a href="" class="label green" ">Recruiting</a>
+                        </li>
+
+                        <li class="lista-interna"><span class="done">&checkmark;</span> Summit update to mobile storefronts <a href="" class="label orange">Mobile</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="lista"><span>&blacktriangledown;</span> Upcoming
+                    <ul>
+                        <li class="lista-interna"><span class="undone">&cross;</span> Schedule meeting with Alex 
+                        </li>
+
+                        <li class="lista-interna"><span class="done">&checkmark;</span> Homepage refresh <a href="" class="label fucsia">Website</a>
+                        </li>
+
+                        <li class="lista-interna"><span class="done">&checkmark;</span> Onboard new Sales team members <a href="" class="label oliva" ">Sales</a>
+                        </li>
+
+                        <li class="lista-interna"><span class="done">&checkmark;</span> Review editorial calendar <a href="" class="label ">Editorial</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
         <!-- /contenuto -->
         </div>
         <!-- /box -->
