@@ -1,6 +1,7 @@
 *{
     margin:0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-part{
@@ -11,6 +12,7 @@
     padding-left:20px;
     display: inline-block;
     vertical-align: middle;
+    border-bottom:20px solid hsl(200deg 20% 97%);
 }
 
 .header-part img, .title{
@@ -28,12 +30,14 @@
     padding:10px 30px 10px 30px;
     background-color:hsl(0deg 0% 100%); 
     margin:auto;
-    border: 1px solid black;
+    
+    border-radius:10px;
 }
 
 
 .navig{
-    border-bottom:1px solid hsl(200deg 20% 97%);
+    border-bottom:5px solid hsl(200deg 20% 97%);
+    
 }
 
 
